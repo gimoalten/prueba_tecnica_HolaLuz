@@ -1,0 +1,7 @@
+[run]
+source = .
+omit = main.py,./venv/*,*/tests/*,*__init__.py
+
+[report]
+omit = main.py,./venv/*,*/tests/*,*__init__.py
+fail_under = 100

@@ -9,7 +9,7 @@ jobs:
       PYTHONPATH: src
 
     steps:
-      - uses: actions/checkout@4
+      - uses: actions/checkout@v4
 
       - name: Set up python 3.13.1
         uses: actions/setup-python@v3
